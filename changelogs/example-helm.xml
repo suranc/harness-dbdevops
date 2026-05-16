@@ -12,7 +12,7 @@
         http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
 
     <preConditions>  
-        <runningAs  username="app"/>  
+        <runningAs  username="postgres"/>  
     </preConditions>  
 
     <changeSet  id="1"  author="nvoxland">  
