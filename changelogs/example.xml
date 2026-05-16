@@ -38,5 +38,10 @@
             existingTableName="person"  existingColumnName="state"  
             newTableName="state"  newColumnName="id"  newColumnDataType="char(2)"/>  
     </changeSet>  
+    <changeSet  id="4"  author="nvoxland">  
+        <addColumn  tableName="person">  
+            <column  name="change1"  type="varchar(8)"/>  
+        </addColumn>  
+    </changeSet>  
 
 </databaseChangeLog>
