@@ -48,5 +48,10 @@
             <column  name="change2"  type="varchar(8)"/>  
         </addColumn>  
     </changeSet>
+    <changeSet  id="6"  author="nvoxland">  
+        <addColumn  tableName="person">  
+            <column  name="change6"  type="varchar(8)"/>  
+        </addColumn>  
+    </changeSet>
 
 </databaseChangeLog>
